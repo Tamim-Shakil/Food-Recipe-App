@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-orange-500 hover:bg-orange-700 text-white px-4 py-2 rounded;
+}
+
+.heading {
+  @apply text-2xl text-white;
+}
+
+.btn {
+  background-color: orange ;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: crimson;
+}
+
+.heading {
+  color: white;
+  font-size: 1.2rem;
+}
